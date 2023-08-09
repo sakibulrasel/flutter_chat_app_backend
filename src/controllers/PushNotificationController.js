@@ -22,7 +22,7 @@ class PushNotificationController {
                 {
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': `key=${process.env.FCM_SERVER_TOKEN}`,
+                        'Authorization': `key=AAAAp1_hWNY:APA91bH81vE160WXBkZGFDoARQp-93PKq87-e5ob8ZVwPZ7FmTxUyopdH9W_MW81aXFyiO2x-c173BEPHUgJdOsLpRijn8v33UuYhvwhddh9BDQK8znwetrkC2hPHLknZU7Lw99bSi6q`,
                     }
                 }
             )

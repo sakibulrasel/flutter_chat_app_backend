@@ -14,9 +14,6 @@ app.use(cors());
 const server = require('http').createServer(app);
 const io = socketIO(server);
 shared.io = io;
-process.env['MONGO_CONNECTION_STRING'] = 'mongodb+srv://sakibul:sakibul1991@doctorappointment.4solf.mongodb.net/?retryWrites=true&w=majority';
-process.env['JWT_SECRET'] = 'MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrY6eHluyA96Ip1m5ZwmB1GFyV4Y0Gai523CY2U9z/pT/KnpIlGF/4YrHwShw548XOdezDWe91OsTazlmhredMCAwEAAQ==';
-process.env['FCM_SERVER_TOKEN'] = 'AAAAp1_hWNY:APA91bH81vE160WXBkZGFDoARQp-93PKq87-e5ob8ZVwPZ7FmTxUyopdH9W_MW81aXFyiO2x-c173BEPHUgJdOsLpRijn8v33UuYhvwhddh9BDQK8znwetrkC2hPHLknZU7Lw99bSi6q';
 let users = [];
 shared.users = users;
 
